@@ -6,11 +6,7 @@ Som användare vill jag kunna boka datum och tid samt ange antal spelare så att
 
 -Användaren ska kunna ange datum och tid för bokningen.
 
--Systemet ska kunna validera att det angivna datumet inte är tidigare än dagens datum.
-
 -Användaren ska kunna lägga till antal spelare i bokningen.
-
--Systemet ska validera att antal spelare är större än 0.
 
 -Användaren kan välja att boka en eller flera banor.
 
@@ -24,12 +20,18 @@ Som användare vill jag kunna välja skostorlek för varje spelare så varje spe
 
 Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 
-\*Man ska kunna ta bort från input ifall man råkar skriva fel storlek.
+-Man ska kunna ta bort från input ifall man råkar skriva fel storlek.
+
+-Systemet kollar igenom så rätt sko blir borttagen
 
 Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
 
-\*Man ska kunna skicka iväg formuläret och fetch total beloppet från alla inputs innan man ska "betala".
+-Man ska kunna skicka iväg formuläret.
+
+-Man ska kunna fetch total beloppet från alla inputs innan man ska "betala".
 
 Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
 
-\*Det ska finnas en nav där man kan skifta vy mellan bokning och bekräftelsesidan.
+-Det ska finnas en nav där man kan skifta vy mellan bokning och bekräftelsesidan.
+
+-Systemet testar så man navigeras till rätt sida.

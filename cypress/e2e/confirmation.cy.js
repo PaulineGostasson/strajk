@@ -29,5 +29,6 @@ describe("Confirmation functionality", () => {
     // Verify successful booking
     cy.url().should("include", "/confirmation");
     cy.contains("See you soon!").should("be.visible");
+    cy.get(".confirmation__price").should("contain", "Total:");
   });
 });

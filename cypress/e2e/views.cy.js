@@ -21,8 +21,6 @@ describe("Toggle views", () => {
 
     // Go back to the booking view
     cy.get(".navigation__link").contains("Booking").click({ force: true });
-
-    // Verify that the booking view is displayed again
     cy.get("a.navigation__link.hide").should("exist");
   });
 });
